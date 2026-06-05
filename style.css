@@ -104,3 +104,21 @@ h2{
     text-align:center;
     margin-top:20px;
 }
+.light-mode {
+    background: #f4f4f4;
+}
+
+.light-mode .container {
+    background: white;
+    color: black;
+}
+
+.light-mode .card {
+    background: #e5e7eb;
+    color: black;
+}
+
+.light-mode #expenseList li {
+    background: #f3f4f6;
+    color: black;
+}
