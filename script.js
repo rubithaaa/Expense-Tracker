@@ -57,3 +57,15 @@ function deleteExpense(button, amount) {
 
     button.parentElement.remove();
 }
+function toggleTheme() {
+
+    document.body.classList.toggle("light-mode");
+
+    let btn = document.getElementById("themeBtn");
+
+    if (document.body.classList.contains("light-mode")) {
+        btn.innerHTML = "☀️ Light Mode";
+    } else {
+        btn.innerHTML = "🌙 Dark Mode";
+    }
+}
